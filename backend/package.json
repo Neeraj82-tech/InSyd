@@ -7,8 +7,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install",  // Add this line to install dependencies during the build step
-    "postinstall": "npm install"  // Ensure install is triggered after deployment
+    "build": "npm install",
+    "postinstall": "npm install"
   },
   "keywords": [],
   "author": "",
