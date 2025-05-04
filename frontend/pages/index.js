@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:4000';
+// Use environment variable for API URL, fallback to localhost for development
+const API = process.env.NEXT_PUBLIC_API_URL;
 
 export default function Home() {
   const [users, setUsers] = useState([]);
